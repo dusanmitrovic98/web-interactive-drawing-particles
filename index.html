@@ -76,3 +76,4 @@
     canvas.addEventListener('mousemove', drawParticle);
     canvas.addEventListener('mouseleave', stopDrawing);
     canvas.addEventListener('touchstart', function(event) {
+      event.preventDefault();
